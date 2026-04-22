@@ -1,0 +1,54 @@
+{
+  "name": "devkit",
+  "metadata": {
+    "description": "Reusable skills for software development: code review, testing, commit messages, Docker, and security",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "development",
+      "description": "Code quality and review skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/code-review"
+      ]
+    },
+    {
+      "name": "testing",
+      "description": "Test generation skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/unit-test-generator"
+      ]
+    },
+    {
+      "name": "writing",
+      "description": "Documentation and commit message skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/commit-message"
+      ]
+    },
+    {
+      "name": "devops",
+      "description": "Infrastructure and containerization skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/dockerfile-review"
+      ]
+    },
+    {
+      "name": "security",
+      "description": "Security analysis and vulnerability detection skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/owasp-check"
+      ]
+    }
+  ]
+}
