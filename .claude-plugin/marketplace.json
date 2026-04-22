@@ -25,11 +25,13 @@
     },
     {
       "name": "writing",
-      "description": "Documentation and commit message skills",
+      "description": "Text creation, humanization, documentation and commit message skills",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/commit-message"
+        "./skills/commit-message",
+        "./skills/text-writer",
+        "./skills/text-humanizer"
       ]
     },
     {
